@@ -68,6 +68,50 @@ def main():
 
     # Add more tests here.
 
+    # first test: check if there are invariants + func failures
+    # val tests
+    """
+    exec_command(program, prefix + '-d DSNTEXIST') # dep doesn't exist
+    exec_command(program, prefix + '-n 999999') # num doesn't exist
+    exec_command(program, prefix + '-a SSS') # area doesn't exist
+    exec_command(program, prefix + '-t NoTitle') # title doesn't exist
+    
+    exec_command(program, prefix + '-d COS -n 999') # valid dep, num doesn't exist
+    exec_command(program, prefix + '-d cOs -t INTrodUcTion') 
+    exec_command(program, prefix + '-d cos -t introduction')
+
+    #testing to see if we treet % and _ as ordinary chars instead of wildcards
+    exec_command(program, prefix + '-d "%"') 
+    exec_command(program, prefix + '-n "%"') 
+    exec_command(program, prefix + '-a "%"')
+    exec_command(program, prefix + '-t "%"')
+ 
+    exec_command(program, prefix + '-d "_"')
+    exec_command(program, prefix + '-n "_"')
+    exec_command(program, prefix + '-a "_"')
+    exec_command(program, prefix + '-t "_"')
+
+
+    # see if we can handle backslashes correctly
+    exec_command(program, prefix + '-d "\\\\"')
+    exec_command(program, prefix + '-n "\\\\"')
+    exec_command(program, prefix + '-a "\\\\"')
+    exec_command(program, prefix + '-t "\\\\"')
+
+    # wrong/unknown command line args
+    exec_command(program, prefix + '-z flagNotExist')
+    exec_command(program, prefix + '-D ECE')
+    exec_command(program, prefix + '-dd ECE')
+
+    # no option attached, just extra positional argument
+    exec_command(program, prefix + 'noOption') #should reject extra pos argument
+ 
+    exec_command(program, prefix + '-d') # since no vals here
+    exec_command(program, prefix + '-n')
+    exec_command(program, prefix + '-a')
+    exec_command(program, prefix + '-t')
+    """
+
 #-----------------------------------------------------------------------
 
 if __name__ == '__main__':

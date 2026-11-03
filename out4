@@ -1,0 +1,448 @@
+------------------------------------------------------------------------
+python regdetails.py -h
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+
+Registrar application: show details about a class
+
+positional arguments:
+  host        the computer on which the server is running
+  port        the port at which the server is listening
+  classid     the id of the class whose details should be shown
+
+options:
+  -h, --help  show this help message and exit
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 8321
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 8321
+Days: TTh
+Start Time: 11:00 AM
+End Time: 12:20 PM
+Building: FRIEN
+Room: 006
+--------------
+Course Details
+--------------
+Course Id: 3672
+Departments and Numbers: COS 333
+Area:
+Title: Advanced C%Science Programming Techniques
+Description: This is a course about the practice of programming.
+   Programming is more than just writing code.  Programmers must also
+   assess tradeoffs, choose among design alternatives, debug and test,
+   improve performance, and maintain software written by themselves &
+   others. At the same time, they must be concerned with compatibility,
+   robustness, and reliability, while meeting specifications.  Students
+   will have the opportunity to develop these skills by working on their
+   own code and in group projects.
+Prerequisites: COS 217 and COS 226.
+Professors: Brian W. Kernighan
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 8456
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 8456
+Days: Th
+Start Time: 03:30 PM
+End Time: 04:20 PM
+Building: FISHH
+Room: B03
+--------------
+Course Details
+--------------
+Course Id: 3731
+Departments and Numbers: ECO 313
+Area: QR
+Title: Econometric Applications
+Description: This course provides hands-on experience in the art and
+   science of econometric analysis designed to help students to acquire
+   and master the skills necessary to carry out their own empirical
+   research in economics.  Various aspects of empirical research in
+   economics will be covered including 1) development of testable
+   economic models, 2) appropriate use of data, 3) specification and
+   estimation of econometric models.  A range of applications will be
+   presented and discussed in class and on problem sets.
+Prerequisites: ECO 302 or ECO 312. Additional prerequisite: Calculus
+Professors: Henry S. Farber
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 9240
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 9240
+Days: TTh
+Start Time: 11:00 AM
+End Time: 12:20 PM
+Building: FINEH
+Room: 214
+--------------
+Course Details
+--------------
+Course Id: 4111
+Departments and Numbers: COS 342, MAT 306
+Area: QR
+Title: Introduction to Graph Theory
+Description: This course will cover the fundamental theorems and
+   algorithms of graph theory. The main topics are: connectivity,
+   matchings, graph coloring, planarity, the four-color theorem,
+   extremal problems, network flows, and related algorithms.
+Prerequisites: MAT 202 or MAT 204 or MAT 217 or permission of the
+   instructor.
+Professors: Paul D. Seymour
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 8462
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 8462
+Days: F
+Start Time: 11:00 AM
+End Time: 11:50 AM
+Building: MCCOH
+Room: 2
+--------------
+Course Details
+--------------
+Course Id: 3732
+Departments and Numbers: ECO 341
+Area: SA
+Title: Public Finance
+Description: The main goal is to learn to think analytically about
+   government policy problems.
+Prerequisites: ECO 100.  A working knowledge of calculus is required for
+   this course.
+Professors: Marco Manacorda
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 8463
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 8463
+Days: F
+Start Time: 02:30 PM
+End Time: 03:20 PM
+Building: FISHH
+Room: B02
+--------------
+Course Details
+--------------
+Course Id: 3732
+Departments and Numbers: ECO 341
+Area: SA
+Title: Public Finance
+Description: The main goal is to learn to think analytically about
+   government policy problems.
+Prerequisites: ECO 100.  A working knowledge of calculus is required for
+   this course.
+Professors: Marco Manacorda
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 9577
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 9577
+Days: MW
+Start Time: 03:00 PM
+End Time: 04:20 PM
+Building: JADWH
+Room: A06
+--------------
+Course Details
+--------------
+Course Id: 4266
+Departments and Numbers: MAT 407, PHY 403
+Area:
+Title: Mathematical Methods of Physics
+Description: Mathematical methods and terminology which are essential
+   for modern theoretical physics. These include some of the traditional
+   techniques of mathematical analysis, but also more modern tools such
+   as group theory and differential geometry. Mathematical theories are
+   not treated as ends in themselves; the goal is to show how
+   mathematical tools are developed to solve physical problems.
+Prerequisites:
+Professors: Robert Seiringer
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 1
+------------------------------------------------------------------------
+regdetails.py: no class with classid 1 exists
+Exit status = 1
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 99999
+------------------------------------------------------------------------
+regdetails.py: no class with classid 99999 exists
+Exit status = 1
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 7838
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 7838
+Days: M
+Start Time: 01:30 PM
+End Time: 04:20 PM
+Building: CHANC
+Room: 105
+--------------
+Course Details
+--------------
+Course Id: 3457
+Departments and Numbers: AAS 310, ENG 324, MUS 256
+Area: LA
+Title: Music from the Hispanophone Caribbean
+Description: This interdisciplinary seminar utilizes the musical
+   cultures of Puerto Rico, the Dominican Republic, and Cuba to reflect
+   upon the aesthetic, migratory, and social histories of the
+   Hispanophone Caribbean.  Students will listen to the sounded legacies
+   of conquest, slavery, colonialism, and U.S. intervention and
+   occupation. The effects of transnational migration on music's
+   performance and reception will also be one of the key themes in the
+   course.  We will not only consider the creative traditions and
+   receptive worlds embedded in musical recordings, but will also pay
+   attention to music's traces in literature, film, and other ephemera.
+Prerequisites:
+Professors: Alexandra T. Vazquez
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 10264
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 10264
+Days: TTh
+Start Time: 01:00 PM
+End Time: 02:25 PM
+Building: FIRES
+Room: 36J
+--------------
+Course Details
+--------------
+Course Id: 4614
+Departments and Numbers: POP 508, WWS 598
+Area:
+Title: Epidemiology
+Description: Course covers the basic concepts and methods of
+   epidemiology and demonstrates how these can be applied to improve
+   population health and reduce health inequities. Topics include:
+   measuring the health of the population, understanding the causes of
+   poor health, developing interventions for improving health,
+   translating evidence into practice, and evaluating the impact of
+   policies and programs. Key epidemiological concepts such as
+   association, bias and confounding are covered, as well as the main
+   epidemiological study designs.
+Prerequisites: This is a required course for graduate students in the
+   Health and Health Policy certificate program.
+Professors: Anne Andermann
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 0
+------------------------------------------------------------------------
+regdetails.py: no class with classid 0 exists
+Exit status = 1
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 -1
+------------------------------------------------------------------------
+regdetails.py: no class with classid -1 exists
+Exit status = 1
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 99999999999999999999
+------------------------------------------------------------------------
+regdetails.py: A server error occurred. Please contact the system administrator.
+Exit status = 1
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 08321
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 8321
+Days: TTh
+Start Time: 11:00 AM
+End Time: 12:20 PM
+Building: FRIEN
+Room: 006
+--------------
+Course Details
+--------------
+Course Id: 3672
+Departments and Numbers: COS 333
+Area:
+Title: Advanced C%Science Programming Techniques
+Description: This is a course about the practice of programming.
+   Programming is more than just writing code.  Programmers must also
+   assess tradeoffs, choose among design alternatives, debug and test,
+   improve performance, and maintain software written by themselves &
+   others. At the same time, they must be concerned with compatibility,
+   robustness, and reliability, while meeting specifications.  Students
+   will have the opportunity to develop these skills by working on their
+   own code and in group projects.
+Prerequisites: COS 217 and COS 226.
+Professors: Brian W. Kernighan
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 +8321
+------------------------------------------------------------------------
+-------------
+Class Details
+-------------
+Class Id: 8321
+Days: TTh
+Start Time: 11:00 AM
+End Time: 12:20 PM
+Building: FRIEN
+Room: 006
+--------------
+Course Details
+--------------
+Course Id: 3672
+Departments and Numbers: COS 333
+Area:
+Title: Advanced C%Science Programming Techniques
+Description: This is a course about the practice of programming.
+   Programming is more than just writing code.  Programmers must also
+   assess tradeoffs, choose among design alternatives, debug and test,
+   improve performance, and maintain software written by themselves &
+   others. At the same time, they must be concerned with compatibility,
+   robustness, and reliability, while meeting specifications.  Students
+   will have the opportunity to develop these skills by working on their
+   own code and in group projects.
+Prerequisites: COS 217 and COS 226.
+Professors: Brian W. Kernighan
+Exit status = 0
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 abc
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: 'abc'
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 8456x
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: '8456x'
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 84.56
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: '84.56'
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 "8456 8457"
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: '8456 8457'
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 ""
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: ''
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 "   "
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: '   '
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 %
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: '%'
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 _
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: '_'
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 "\\"
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument classid: invalid int value: '\\'
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 8456 8457
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: unrecognized arguments: 8457
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 8456 more
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: unrecognized arguments: more
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 -x 8456
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: unrecognized arguments: -x
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433 -d 8456
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: unrecognized arguments: -d
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py 
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: the following arguments are required: host, port, classid
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: the following arguments are required: port, classid
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3433
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: the following arguments are required: classid
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost whatPort 8456
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: argument port: invalid int value: 'whatPort'
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py 8456
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: the following arguments are required: port, classid
+Exit status = 2
+------------------------------------------------------------------------
+python regdetails.py localhost 3434 8456
+------------------------------------------------------------------------
+regdetails.py: [Errno 61] Connection refused
+Exit status = 1
+------------------------------------------------------------------------
+python regdetails.py nohost.invalid3433 8456
+------------------------------------------------------------------------
+usage: regdetails.py [-h] host port classid
+regdetails.py: error: the following arguments are required: classid
+Exit status = 2

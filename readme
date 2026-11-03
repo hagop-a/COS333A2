@@ -2,15 +2,14 @@
 
 Your full name and netid.
 
-[Enter your reply here.]
-
+Hagop Alajajian
+ha9461
 ------------------------------------------------------------------------
 
 A sentence asserting that you understand all aspects of the assignment
 solution that you submitted.
 
-[Enter your reply here.]
-
+I assert that I understand all aspects of the assignment solution that I submitted.
 ------------------------------------------------------------------------
 
 A description of the sources of information other than the lecture
@@ -29,8 +28,26 @@ those sources of information here. Write "None" to indicate that you
 received no help from any sources of information other than the lecture
 material.
 
-[Enter your reply here.]
-
+I relied heavily on the Enscript Output.pdf given out during lecture, and I studied the material during the networking lecture. For the aspect of learning new information; such as sockets, style guidelines, argparse, json guidelines, threading, contextlib.closing, exit statuses, and delay; I referred to the following written sources of information:
+https://docs.python.org/3/tutorial/errors.html
+https://docs.python.org/3/howto/argparse.html
+https://docs.python.org/3/library/argparse.html 
+https://realpython.com/command-line-interfaces-python-argparse/
+https://docs.python.org/3/howto/sockets.html
+https://docs.python.org/3/library/socket.html
+https://docs.python.org/3/library/json.html
+https://realpython.com/python-json/
+https://realpython.com/python-with-statement/
+https://realpython.com/python-f-strings/
+https://docs.python.org/3/library/sys.html
+https://docs.python.org/3/library/threading.html
+https://docs.python.org/3/library/threading.html
+https://realpython.com/python-gil/
+https://docs.python.org/3/library/contextlib.html
+https://docs.python.org/3/library/os.html
+https://docs.python.org/3/library/time.html
+https://docs.python.org/3/library/subprocess.html
+https://docs.python.org/3/library/string.html
 ------------------------------------------------------------------------
 
 A description of the help that you received from generative AI while
@@ -38,34 +55,34 @@ doing the assignment. Your description must consist of lines of the
 form "aspect of your assignment solution: generative AI engines used."
 Write "None" to indicate that you received no help from generative AI.
 
-[Enter your reply here.]
-
+None
 ------------------------------------------------------------------------
 
 An indication of how much time you spent doing the assignment.
 
-[Enter your reply here.]
+25-30 hours
 
 ------------------------------------------------------------------------
 
 Your assessment of the assignment: Did it help you to learn? What did
 it help you to learn? Do you have any suggestions for improvement? Etc.
 
-[Enter your reply here.]
-
+This assignment helped me truly dive deep into the practical side of networking and concurrent programming in Python. I have taken Systems at Princeton, so it was interesting seeing how that applied to this assignment. I don't really have too many suggestions other than that I think it would be useful to have some examples of expected JSON requests and responses for the error cases so we could see the error paths more visibly against hte reference program.
 ------------------------------------------------------------------------
 
 (Optionally) Any information that will help us to grade your work in
 the most favorable light. In particular you must describe all known
 bugs.
 
-[Enter your reply here.]
+I really appreciate you working with me as I finished this assignment.
 
 ------------------------------------------------------------------------
 
 Your answer to the two questions provided in the assignment
 specification.
 
-[Enter your reply here.]
+1. Regserver.py is better than regserverprelim.py when the delay is I/O delay (IODELAY), since every request waits k x n seconds in prelim server and only n seconds in threaded server.
+
+2. Regserver.py is not better than regserverprelim.py when the delay is computer delay (CDELAY), since GIL allows for only one thread to run in Python at once.
 
 ------------------------------------------------------------------------
